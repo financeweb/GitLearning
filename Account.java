@@ -1,10 +1,12 @@
 package GITCommands;
 
 public class Account {
-    public static void main(String[] arg) {
-        Payment p = new Payment();
-        System.out.println("Account.java v1.0");
-        System.out.println("Account.java v1.0 edited in github");
-        System.out.println("Verified github made changes");
+
+    public Account() {
+        System.out.println("Constructinh");
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Created this file in feature-login");
     }
 }
