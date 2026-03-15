@@ -5,5 +5,6 @@ public class Account {
         Payment p = new Payment();
         System.out.println("Account.java v1.0");
         System.out.println("Account.java v1.0 edited in github");
+        System.out.println("Verified github made changes");
     }
 }
